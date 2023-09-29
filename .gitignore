@@ -32,9 +32,9 @@ Constants.dart
 .pub-cache/
 .pub/
 /build/
-
-.Constants.dart/
-
+Constants.dart
+*.env
+/lib/env/env.g.dart
 # Symbolication related
 app.*.symbols
 

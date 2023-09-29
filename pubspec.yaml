@@ -28,7 +28,9 @@ environment:
 # the latest version available on pub.dev. To see which dependencies have newer
 # versions available, run `flutter pub outdated`.
 dependencies:
+  envify:
   material_floating_search_bar_2: ^0.5.0
+  envied: ^0.3.0+3
   provider: ^6.0.5
   flutter:
     sdk: flutter
@@ -40,6 +42,7 @@ dependencies:
   http: ^1.1.0
 
 dev_dependencies:
+  envify_generator:
   flutter_test:
     sdk: flutter
 
@@ -49,6 +52,8 @@ dev_dependencies:
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
   flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  envied_generator: ^0.3.0+3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

@@ -3,10 +3,11 @@ import 'package:http/http.dart' as http;
 import 'dart:convert';
 
 import '../Models/UserModel.dart';
+import 'package:chat_app_project/env/env.dart';
 
 class UserAPI
 {
-  static const _trendingURL = "https://api.themoviedb.org/3/trending/person/day?api_key=${Constants.apiKey}";
+  static var _trendingURL = "https://api.themoviedb.org/3/trending/person/day?api_key=${Env.apiKey}";
 
   //I am going to have some data in the future
   Future<List<User>> getTrendingUsers() async
