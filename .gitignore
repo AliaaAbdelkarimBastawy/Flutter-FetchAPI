@@ -33,7 +33,7 @@ Constants.dart
 .pub/
 /build/
 
-.Constants.dart/
+Constants.dart
 
 # Symbolication related
 app.*.symbols
